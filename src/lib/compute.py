@@ -7,7 +7,10 @@ class Compute:
         pass
 
     def subtract(self):
-        pass
+        difference = 0
+        for item in self.operands:
+            difference -= item
+        print(difference)
 
     def divide(self):
         pass
