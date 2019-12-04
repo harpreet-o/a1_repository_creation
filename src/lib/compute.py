@@ -16,7 +16,9 @@ class Compute:
         pass
 
     def multiply(self):
-        sum  = 1
+        if self.operands is None:
+            return
+        product = 1
         for item in self.operands:
-            sum *= item
-        print(sum)
+            product *= item
+        print(product)
