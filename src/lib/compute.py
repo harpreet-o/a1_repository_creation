@@ -4,7 +4,10 @@ class Compute:
         self.operands = operands
 
     def add(self):
-        pass
+        total = 0
+        for item in self.operands:
+           total += item
+        print(total)
 
     def subtract(self):
         difference = 0
@@ -13,7 +16,10 @@ class Compute:
         print(difference)
 
     def divide(self):
-        pass
+        quotient = 1
+        for item in self.operands:
+            quotient = item / quotient
+        print(quotient)
 
     def multiply(self):
         if self.operands is None:
@@ -22,3 +28,7 @@ class Compute:
         for item in self.operands:
             product *= item
         print(product)
+
+    def exponent(self):
+        num_exponent = self.operands[0] ** self.operands[1]
+        print(num_exponent)
