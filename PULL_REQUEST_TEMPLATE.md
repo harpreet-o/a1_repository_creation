@@ -10,4 +10,6 @@ What is the acceptance criteria for the proposed solution?
 
 - [ ] All checks pass
 
+- [ ] Architecture changes approved
+
 - [ ] Manual tests approved
