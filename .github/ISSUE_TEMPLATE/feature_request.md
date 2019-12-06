@@ -1,9 +1,12 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
+<<<<<<< HEAD
 title: ''
 labels: ''
 assignees: ''
+=======
+>>>>>>> 89c67f4bf570edcacffb6d1438070705bf1111fc
 
 ---
 
