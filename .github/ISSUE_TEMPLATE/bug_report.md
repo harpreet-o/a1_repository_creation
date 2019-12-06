@@ -1,9 +1,12 @@
 ---
 name: Bug report
 about: Create a report to help us improve
+<<<<<<< HEAD
 title: ''
 labels: ''
 assignees: ''
+=======
+>>>>>>> 89c67f4bf570edcacffb6d1438070705bf1111fc
 
 ---
 
