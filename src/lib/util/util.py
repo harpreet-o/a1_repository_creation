@@ -36,13 +36,19 @@ class Util(object):
         pass
 
     @classmethod
-    def speed(arg1, arg2):
-        pass
+    def speed(cls, arg1, arg2):
+        speed = 0
+        speed = reduce(lambda x, y: x/y, args)
+        return "%s %s" %(speed, unit)
 
     @classmethod
-    def distance(arg1, arg2):
-        pass
+    def distance(cls, unit, *args):
+        distance = 0
+        distance = reduce(lambda x, y: x*y, args)
+        return "%s %s" %(distance, unit)
 
     @classmethod
-    def time(arg1, arg2):
-        pass
+    def time(cls, unit, *args):
+    time = 0
+    time = reduce(lambda x, y: x/y, args)
+    return time
