@@ -38,8 +38,8 @@ class Util(object):
     @classmethod
     def speed(cls, arg1, arg2):
         speed = 0
-        speed = arg1/arg2
-        return speed
+        speed = reduce(lambda x, y: x/y, args)
+        return "%s %s" %(speed, unit)
 
     @classmethod
     def distance(cls, unit, *args):
